@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML/CSS Table</title>
+    <style>
+        nav{
+            background-color: #1052e2;
+            height: 100px;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        ul{
+            list-style-type: none;
+           margin: 20px auto;
+           padding: 40px;
+        }
+       li {
+        display: inline;
+        margin-right: 20px;
+       }
+
+       li a{
+        text-decoration: none;
+       }
+        table{
+            border: 3px solid;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        th{
+            border: 3px solid;
+        }
+
+        td{
+            border: 2px solid black;
+        }
+
+        td img{
+            width: 100px;
+            height: 70px;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Table of Content</a></li>
+            <li><a href="">Top 5 Mountains in the world</a></li>
+        </ul>
+    </nav>
+    <table>
+        <h2>Top 5 Mountains in the World</h2>
+        <caption>Data Source: Wikipaedia</caption>
+        <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Height(metres)</th>
+            <th>Location</th>
+            <th>First Ascent</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Mount Everest <img src="images/everest.webp" alt="Image of mount everest"></td>
+            <td>8848</td>
+            <td>Nepal/China</td>
+            <td>1953</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>K2 <img src="images/k2.webp" alt="image of mount K2"></td>
+            <td>8611</td>
+            <td>Pakistan/China</td>
+            <td>1954</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Kangchenjunga <img src="images/kangchenjunga.webp" alt="image of mount kangchenjunga"></td>
+            <td>8586</td>
+            <td>Nepal/India</td>
+            <td>1955</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Lhotse <img src="images/lhotse.webp" alt="image of mount lhotse"></td>
+            <td>8516</td>
+            <td>Nepal/China</td>
+            <td>1956</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Makalu <img src="images/makalu.webp" alt="image of mount makalu"></td>
+            <td>8485</td>
+            <td>Nepal/China</td>
+            <td>1955</td>
+        </tr>
+    </table>
+</center>
+</body>
+</html>
