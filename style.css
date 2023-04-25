@@ -1,0 +1,38 @@
+nav{
+    background-color: #1052e2;
+    height: 100px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+ul{
+    list-style-type: none;
+   margin: 20px auto;
+   padding: 40px;
+}
+/*li {
+display: inline;
+margin-right: 20px;
+}
+
+li a{
+text-decoration: none;
+}*/
+table{
+    border: 3px solid;
+    width: 90%;
+    margin: 0 auto;
+}
+
+th{
+    border: 3px solid;
+}
+
+td{
+    border: 2px solid black;
+}
+
+td img{
+    width: 100px;
+    height: 70px;
+}
